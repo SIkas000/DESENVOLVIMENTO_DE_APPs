@@ -5,6 +5,10 @@
     <string name="appTitulo1">Sistema de Compras</string>
     <string name="appSubTitulo">Escolha o seu produto</string>
     <string name="appBtnSet">Total da Compra</string>
+    <string name="appResultado">Total:</string>
+    
+    
+    
     <string name="appRb1">Arroz 1 Kg (R$ 2,69)</string>
     <string name="appRb2">Leite longa vida (R$ 2,70)</string>
     <string name="appRb3">Carne Friboi (R$ 16,70)</string>

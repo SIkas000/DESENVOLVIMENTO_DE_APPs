@@ -6,4 +6,87 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" />
+    android:padding="10dp"
+    android:background="@color/black"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appTitulo1"
+        android:textColor="@color/appColor3"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appSubTitulo"
+        android:textColor="@color/appColor4"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appRb1"
+        android:fontFamily="monospace"
+        android:textColor="@color/appColor3"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appRb2"
+        android:fontFamily="monospace"
+        android:textColor="@color/appColor3"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appRb3"
+        android:fontFamily="monospace"
+        android:textColor="@color/appColor3"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appRb4"
+        android:fontFamily="monospace"
+        android:textColor="@color/appColor3"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appRb5"
+        android:fontFamily="monospace"
+        android:textColor="@color/appColor3"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appBtnSet"
+        android:textColor="@color/appColor2"
+        android:backgroundTint="@color/appColor1"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        />
+</LinearLayout>

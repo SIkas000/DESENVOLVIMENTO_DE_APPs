@@ -11,7 +11,7 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/appTitulo1"
@@ -23,7 +23,7 @@
         />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textSubTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/appSubTitulo"
@@ -34,7 +34,7 @@
         />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/cbaArroz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/appRb1"
@@ -43,7 +43,7 @@
         android:textStyle="bold"/>
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/cbLeite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/appRb2"
@@ -52,7 +52,7 @@
         android:textStyle="bold"/>
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/cbCarne"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/appRb3"
@@ -61,7 +61,7 @@
         android:textStyle="bold"/>
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/cbFeijao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/appRb4"
@@ -70,7 +70,7 @@
         android:textStyle="bold"/>
 
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/cbRefrigerante"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/appRb5"
@@ -92,13 +92,14 @@
         />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/appBtnSet"
         android:textColor="@color/appColor2"
         android:backgroundTint="@color/appColor1"
         android:fontFamily="monospace"
+        android:onClick="enviar"
         android:textStyle="bold"
         android:textSize="19dp"
         />

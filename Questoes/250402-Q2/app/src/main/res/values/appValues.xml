@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="appTitulo">Cálculo de Salário</string>
+    <string name="appSubTitulo">Digete seu Salário (R$)</string>
+    <string name="appPercentual">Qual será o percentual?</string>
+    
+    <string name="appRb1">40%</string>
+    <string name="appRb2">45%</string>
+    <string name="appRb3">50%</string>
+
+
+    <string name="appBtnSet">Mostrar novo salário</string>
+
+
+    <color name="appColor1">#000000</color>
+    <color name="appColor2">#4CAF50</color>
+    <color name="appColor3">#FFFFFF</color>
+
+
+</resources>

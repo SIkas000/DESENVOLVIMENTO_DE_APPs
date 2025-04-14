@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Colors-->
+    <color name="appColor1">#ffffff</color>
+    <color name="appColor2">#fd4c00</color>
+    <color name="appColor3">#1C3E43</color>\
+
+
+
+    <!--String-->
+    <string name="appT1btnIniciar">INICIAR CADASTRO</string>
+    <string name="appT2btnCadastrar">CADASTRAR</string>
+    <string name="appT2Digitenome">Digite seu nome</string>
+    <string name="appT2FormularioCadastro">FORMULÁRIO DE CADASTRO</string>
+    <string name="appT3btnVoltar">Finalizar</string>
+    <string name="appT3Boasvindas">Boas-Vindas</string>
+
+
+
+
+</resources>

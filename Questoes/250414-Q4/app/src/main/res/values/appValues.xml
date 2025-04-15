@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+      <!--Strings-->
+    <string name="appT1ComecarPedido">PEDIR</string>
+    <string name="appT2Cardapio">CARDÁPIO</string>
+    <string name="appT2escolherlanche">Escolha o lanche:</string>
+
+    <string name="appT2Produto1">X-Salada - R$28,00</string>
+    <string name="appT2Produto2">Misto Quente - R$10,00</string>
+    <string name="appT2Produto3">Cheeseburguer - R$25,00</string>
+    <string name="appT2Produto4">Nuggets - R$15,00</string>
+
+    <string name="appT2descricao1">Pão, hambúrguer, queijo, alface e tomate.</string>
+    <string name="appT2descricao2">Pão, presunto e queijo derretido.</string>
+    <string name="appT2descricao3">Pão, hambúrguer e queijo cheddar.</string>
+    <string name="appT2descricao4">Porção com 8 unidades, empanadas e crocantes.</string>
+
+    <string name="appT2Nome">Seu nome:</string>
+    <string name="appT2Exemplo">Ex: Guilherme</string>
+    <string name="appT2ConfirmarPedido">Confirmar</string>
+    <string name="appT2Comprar">Comprar</string>
+
+    <string name="appT3Resultado">Pedido realizado com sucesso!</string>
+    <string name="appT3ResumoPedido">Resumo</string>
+    <string name="appT3Lanche">Lanche</string>
+    <string name="appT3TextTotal">Total</string>
+    <string name="appT3Voltar">Voltar</string>
+
+
+    <!--Colors-->
+    <color name="appColor1">#94A653</color>
+    <color name="appColor2">#FFFFFF</color>
+    <color name="appColor3">#592C1C</color>
+    <color name="appColor4">#FAE9D2</color>
+    <color name="appColor5">#F2A341</color>
+    <color name="appColor6">#000000</color>
+
+</resources>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor4"
+    android:orientation="vertical"
+    tools:context=".FormularioDePedidosActivity">
+
+    <TextView
+        android:id="@+id/digiteNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5sp"
+        android:text="@string/appT2Nome"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/appColor1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/InpuText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/appT2Exemplo"
+            android:textColor="@color/appColor6"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed-medium" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/Cardapio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5sp"
+        android:text="@string/appT2Cardapio"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/appColor1"
+        android:layout_marginBottom="10sp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/escolherlanche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5sp"
+        android:text="@string/appT2escolherlanche"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/appColor1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layerLanche1"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgLanche1"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/x_salada" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textLanche1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appT2Produto1"
+                android:textColor="@color/appColor3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descricaoLanche1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/appT2descricao1"
+                android:textColor="@color/appColor6"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLanche1"
+            android:layout_width="wrap_content"
+            android:layout_height="48sp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/appColor1"
+            android:text="@string/appT2Comprar"
+            android:fontFamily="sans-serif-condensed-medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layerLanche2"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgLanche2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/misto_quente" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textLanche2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appT2Produto2"
+                android:textColor="@color/appColor3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descricaoLanche2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appT2descricao3"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/appColor6"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLanche2"
+            android:layout_width="wrap_content"
+            android:layout_height="48sp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/appColor1"
+            android:text="@string/appT2Comprar"
+            android:fontFamily="sans-serif-condensed-medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layerLanche3"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgLanche3"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/cheeseburguer" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textLanche3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appT2Produto3"
+                android:textColor="@color/appColor3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descricaoLanche3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appT2descricao3"
+                android:textColor="@color/appColor6"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLanche3"
+            android:layout_width="wrap_content"
+            android:layout_height="48sp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/appColor1"
+            android:text="@string/appT2Comprar"
+            android:fontFamily="sans-serif-condensed-medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layerLanche4"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgLanche4"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/imagem_nuggets" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textLanche4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appT2Produto4"
+                android:textColor="@color/appColor3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descricaoLanche4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/appT2descricao4"
+                android:textColor="@color/appColor6"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLanche4"
+            android:layout_width="wrap_content"
+            android:layout_height="48sp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/appColor1"
+            android:text="@string/appT2Comprar"
+            android:fontFamily="sans-serif-condensed-medium" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnconfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="15dp"
+        android:layout_weight="0"
+        android:backgroundTint="@color/appColor3"
+        android:text="@string/appT2ConfirmarPedido"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

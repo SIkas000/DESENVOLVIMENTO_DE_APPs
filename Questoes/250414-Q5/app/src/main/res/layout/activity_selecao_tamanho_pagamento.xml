@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color1"
+    android:orientation="vertical"
+    android:padding="10sp"
+    tools:context=".SelecaoTamanhoPagamentoActivity" >
+
+    <TextView
+        android:id="@+id/T3Titulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/T3Titulo"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/Color2"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:id="@+id/T3textSubTitulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appRbTamanhoPizza"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/Color4"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <RadioGroup
+        android:id="@+id/rgTamanho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbTamanho1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/appRbTamanho1"
+            android:textSize="16sp"
+            android:textColor="@color/Color4"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <RadioButton
+            android:id="@+id/rbTamanho2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/appRbTamanho2"
+            android:textSize="16sp"
+            android:textColor="@color/Color4"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <RadioButton
+            android:id="@+id/rbTamanho3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/appRbTamanho3"
+            android:textSize="16sp"
+            android:textColor="@color/Color4"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/T3textSubTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appRbMetodoPagamento"
+        android:layout_marginTop="40sp"
+        android:textColor="@color/Color4"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <RadioGroup
+        android:id="@+id/rgPagamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbPagamento1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Pagamento1"
+            android:textColor="@color/Color4"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbPagamento2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Pagamento2"
+            android:textColor="@color/Color4"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbPagamento3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Pagamento3"
+            android:textColor="@color/Color4"
+            android:textSize="16sp" />
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnPagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/Color2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/btnPagar"
+        android:textSize="18sp" />
+
+</LinearLayout>

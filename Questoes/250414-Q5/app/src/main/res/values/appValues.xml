@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Slogan e Instruções -->
+    <string name="appTextSlogan">Sikas: onde cada fatia conta uma história de sabor!</string>
+    <string name="appTextInstrucao">Escolha sua pizza dos sonhos:</string>
+    <string name="appTextT4Titulo">Sua Jornada de Sabor</string>
+    <string name="appTextResumo">Visão do Pedido</string>
+    <string name="T4Mensagem">Valeu por escolher a Sikas! Já estamos preparando sua pizza com o carinho e o sabor que só a gente tem. Fica de olho, a delícia tá chegando!</string>
+
+    <!-- CheckBox Sabores -->
+    <string name="appTextSelecaoPizza">Escolha seus sabores favoritos:</string>
+    <string name="appCbSabor1">Muçarela Clássica – Simples, intensa e irresistível.</string>
+    <string name="appCbSabor2">Explosão de Queijos – Uma mistura cremosa de 4 queijos apaixonantes.</string>
+    <string name="appCbSabor3">Calabresa Raiz – Fatiada na medida, com cebola e aquele toque especial de azeitona.</string>
+    <string name="appCbSabor4">Frango Supremo – Frango desfiado + catupiry original, com milho e orégano.</string>
+    <string name="appCbSabor5">Nordestina Chic – Carne seca no ponto com queijo coalho e cebola roxa.</string>
+    <string name="appCbSabor6">Portuguesa Completa – Um clássico com presunto, ovos e muito mais.</string>
+    <string name="appCbSabor7">Bacon Lovers – Bacon crocante, queijo derretido e um toque de cebola.</string>
+    <string name="appCbSabor8">Verde Sabor – Uma seleção de legumes, cogumelos e amor!</string>
+
+    <!-- Tamanhos -->
+    <string name="appRbTamanhoPizza">Qual o tamanho da sua fome?</string>
+    <string name="appRbTamanho1">Pequena ... R$ 29.90 – Para os mais comedidos</string>
+    <string name="appRbTamanho2">Média ... R$ 45.90 – Perfeita para dividir</string>
+    <string name="appRbTamanho3">Grande ... R$ 67.90 – Ideal para a galera</string>
+
+    <!-- Pagamento -->
+    <string name="appRbMetodoPagamento">Como deseja realizar o pagamento?</string>
+    <string name="T3Titulo">Escolha Tamanho e Forma de Pagamento</string>
+    <string name="Pagamento1">Dinheiro</string>
+    <string name="Pagamento2">Cartão - Débito </string>
+    <string name="Pagamento3">Cartão - Crédito </string>
+
+    <!-- Botões -->
+    <string name="btnT1Text">COMEÇAR PEDIDO</string>
+    <string name="btnAddAoCarrinho">Colocar na Sacola</string>
+    <string name="btnPagar">Finalizar Pedido</string>
+    <string name="btnReset">Home</string>
+
+    <!-- Cores -->
+    <color name="Color1">#F6C770</color>
+    <color name="Color2">#381D0A</color>
+    <color name="Color3">#FFFFFF</color>
+    <color name="Color4">#000000</color>
+    <color name="Color5">#7e9d37</color>
+    <color name="Color6">#21421C</color>
+
+</resources>
